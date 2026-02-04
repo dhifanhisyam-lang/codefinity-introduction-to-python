@@ -13,7 +13,7 @@ grocery_inventory.update({"Tomatoes": ("Produce", 1.20, 30)})
 print("Inventory after adding Tomatoes:", grocery_inventory)
 milk_stock = grocery_inventory["Milk"][2]
 if milk_stock < 10:
-  print("Milk needs to be restocked. Increasing stock by 20 units")
+  print("Milk needs to be restocked. increasing stock by 20 units.")
   grocery_inventory["Milk"] = (
   grocery_inventory["Milk"][0],
   grocery_inventory["Milk"][1],
